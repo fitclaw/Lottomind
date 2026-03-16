@@ -1,0 +1,97 @@
+// TASK-01 | Localizable.strings | 2026-03-03
+// LottoMind 中文本地化文件
+
+// MARK: - Tab Bar
+"tab.home" = "首页";
+"tab.analysis" = "分析";
+"tab.explore" = "探索";
+"tab.ledger" = "账本";
+"tab.settings" = "设置";
+
+// MARK: - Navigation Titles
+"nav.dashboard" = "LottoMind";
+"nav.analysis" = "智能分析";
+"nav.explore" = "号码探索";
+"nav.backtest" = "历史回测";
+"nav.ledger" = "我的账本";
+"nav.settings" = "设置";
+
+// MARK: - Common Actions
+"action.save" = "保存";
+"action.cancel" = "取消";
+"action.delete" = "删除";
+"action.edit" = "编辑";
+"action.done" = "完成";
+"action.confirm" = "确认";
+"action.retry" = "重试";
+"action.refresh" = "刷新";
+
+// MARK: - Dashboard
+"dashboard.jackpot.title" = "当前奖池";
+"dashboard.jackpot.change.up" = "较上期增长 %@";
+"dashboard.jackpot.change.down" = "较上期下降 %@";
+"dashboard.jackpot.change.same" = "较上期持平";
+"dashboard.recommendation.title" = "今日推荐";
+"dashboard.draw.latest" = "最新开奖";
+"dashboard.pressure.index" = "压力指数";
+
+// MARK: - Analysis
+"analysis.radar.title" = "算法评分总览";
+"analysis.module.hot" = "热号回避";
+"analysis.module.pressure" = "奖池压力";
+"analysis.module.decay" = "序列衰减";
+"analysis.module.structure" = "组合结构";
+"analysis.module.anomaly" = "反常突变";
+"analysis.score.total" = "综合评分 %@/100";
+
+// MARK: - Explore
+"explore.heatmap.title" = "号码热力图";
+"explore.ranking.hot" = "🔥 最热";
+"explore.ranking.cold" = "❄️ 最冷";
+"explore.ranking.warming" = "📈 升温";
+"explore.range.30" = "近30期";
+"explore.range.60" = "近60期";
+"explore.range.90" = "近90期";
+"explore.range.all" = "全部";
+
+// MARK: - Ledger
+"ledger.summary.cost" = "总投入";
+"ledger.summary.prize" = "总回报";
+"ledger.summary.profit" = "盈亏";
+"ledger.add.record" = "添加购彩记录";
+"ledger.status.pending" = "待开奖";
+"ledger.status.win" = "命中%@红";
+"ledger.status.lose" = "未命中";
+
+// MARK: - Settings
+"settings.apikey.title" = "API Key 管理";
+"settings.apikey.configured" = "已配置";
+"settings.apikey.notconfigured" = "未配置";
+"settings.lottery.default" = "默认彩种";
+"settings.sync.title" = "数据同步";
+"settings.notification.draw" = "开奖提醒";
+"settings.notification.analysis" = "分析完成提醒";
+"settings.notification.win" = "中奖提醒";
+"settings.data.clear.cache" = "清除分析缓存";
+"settings.data.clear.all" = "清除全部数据";
+"settings.about.version" = "版本号";
+"settings.about.disclaimer" = "免责声明";
+"settings.about.privacy" = "隐私政策";
+
+// MARK: - Disclaimer
+"disclaimer.text" = "⚠️ 以上号码仅为统计分析参考，不构成任何中奖承诺";
+"disclaimer.full.title" = "免责声明";
+"disclaimer.full.content" = "LottoMind 是一款基于统计分析和历史开奖数据的彩票号码参考工具。\n\n1. 本应用提供的所有号码组合仅为统计分析参考，不构成任何中奖承诺、金融建议或投资建议。\n\n2. 彩票开奖结果具有随机性，任何分析方法都无法保证中奖。\n\n3. 请理性购彩，量力而行，并遵守您所在地区的适用法律与平台规则。\n\n4. 本应用不运营代购彩票服务，也不隶属于任何官方彩票发行机构。\n\n5. 除您主动配置的 AI 服务商 API Key 外，本应用不收集任何用户个人信息；所有本地数据仅存储在您的设备上。";
+
+// MARK: - Errors
+"error.apikey.missing" = "请先配置 API Key";
+"error.network" = "网络连接失败，请检查网络设置";
+"error.parse" = "数据解析失败";
+"error.ratelimit" = "请求过于频繁，请稍后再试";
+"error.server" = "服务器错误，请稍后再试";
+
+// MARK: - Lottery Types
+"lottery.ssq" = "双色球";
+"lottery.dlt" = "大乐透";
+"lottery.fc3d" = "福彩3D";
+"lottery.qlc" = "七乐彩";

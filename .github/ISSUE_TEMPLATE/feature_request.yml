@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest an improvement for LottoMind
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please keep requests aligned with the project's open-source scope. Do not propose features that encourage illegal use, hidden tracking, or misleading gambling claims.
+  - type: input
+    id: problem
+    attributes:
+      label: Problem statement
+      placeholder: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: Describe the change you want to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: What alternatives did you evaluate?
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      placeholder: Links, mockups, or related issues
