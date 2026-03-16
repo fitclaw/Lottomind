@@ -1,0 +1,22 @@
+name: Question
+description: Ask about setup, usage, or project scope
+title: "[Question] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask usage or setup questions here. Please avoid posting API keys, screenshots with personal data, or legal/compliance assumptions without context.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: What do you need help with?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      placeholder: Xcode version, iOS version, provider, reproduction context, etc.

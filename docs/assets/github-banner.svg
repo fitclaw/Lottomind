@@ -1,0 +1,63 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1160" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1F33"/>
+      <stop offset="0.5" stop-color="#0F6B6F"/>
+      <stop offset="1" stop-color="#19A58F"/>
+    </linearGradient>
+    <linearGradient id="card" x1="320" y1="96" x2="1080" y2="544" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <circle cx="1088" cy="112" r="164" fill="white" fill-opacity="0.08"/>
+  <circle cx="1184" cy="520" r="196" fill="white" fill-opacity="0.07"/>
+  <circle cx="182" cy="522" r="228" fill="white" fill-opacity="0.05"/>
+
+  <rect x="88" y="88" width="1104" height="464" rx="32" fill="url(#card)" stroke="white" stroke-opacity="0.16"/>
+
+  <g opacity="0.95">
+    <circle cx="194" cy="180" r="34" fill="#FF6B6B"/>
+    <circle cx="262" cy="180" r="34" fill="#FFB36B"/>
+    <circle cx="330" cy="180" r="34" fill="#4D96FF"/>
+    <circle cx="398" cy="180" r="34" fill="#F3F7FA"/>
+  </g>
+
+  <text x="160" y="286" fill="white" font-family="SF Pro Display, PingFang SC, Helvetica, Arial, sans-serif" font-size="88" font-weight="700">
+    LottoMind
+  </text>
+  <text x="160" y="346" fill="#D9F7F1" font-family="SF Pro Display, PingFang SC, Helvetica, Arial, sans-serif" font-size="28" font-weight="500">
+    Local-first lottery analysis for iOS
+  </text>
+  <text x="160" y="400" fill="white" fill-opacity="0.82" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="26">
+    SwiftUI · SwiftData · Backtesting · Heatmaps · Ledger · MIT
+  </text>
+
+  <g>
+    <rect x="758" y="164" width="330" height="86" rx="22" fill="white" fill-opacity="0.13"/>
+    <text x="792" y="214" fill="white" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="26" font-weight="600">
+      Dashboard
+    </text>
+    <text x="792" y="242" fill="#D9F7F1" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="20">
+      最新开奖、推荐组合、奖池压力
+    </text>
+
+    <rect x="702" y="274" width="386" height="86" rx="22" fill="white" fill-opacity="0.13"/>
+    <text x="736" y="324" fill="white" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="26" font-weight="600">
+      Explore &amp; Backtest
+    </text>
+    <text x="736" y="352" fill="#D9F7F1" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="20">
+      冷热号、热力图、历史命中率
+    </text>
+
+    <rect x="758" y="384" width="330" height="86" rx="22" fill="white" fill-opacity="0.13"/>
+    <text x="792" y="434" fill="white" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="26" font-weight="600">
+      Local-first
+    </text>
+    <text x="792" y="462" fill="#D9F7F1" font-family="SF Pro Text, PingFang SC, Helvetica, Arial, sans-serif" font-size="20">
+      API Key 与数据默认仅存储在本机
+    </text>
+  </g>
+</svg>

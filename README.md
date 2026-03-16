@@ -1,3 +1,19 @@
+<p align="center">
+  <img src="docs/assets/github-banner.svg" alt="LottoMind banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/fitclaw/Lottomind/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/fitclaw/Lottomind/ci.yml?branch=main&label=CI&style=for-the-badge" alt="CI" /></a>
+  <a href="https://github.com/fitclaw/Lottomind/blob/main/LICENSE"><img src="https://img.shields.io/github/license/fitclaw/Lottomind?style=for-the-badge" alt="License" /></a>
+  <img src="https://img.shields.io/badge/iOS-17%2B-0A84FF?style=for-the-badge" alt="iOS 17+" />
+  <img src="https://img.shields.io/badge/Swift-5-orange?style=for-the-badge" alt="Swift 5" />
+</p>
+
+<p align="center">
+  一款本地优先、面向 iOS 17+ 的彩票历史数据分析实验应用。<br />
+  抓取开奖、冷热号探索、历史回测和账本管理都在一套 SwiftUI App 内完成。
+</p>
+
 # LottoMind
 
 `LottoMind` 是一个面向 iOS 17+ 的彩票历史数据分析实验项目，提供开奖抓取、统计分析、历史回测、冷热号探索和本地购彩账本能力。
@@ -17,6 +33,13 @@
 - 回测页：查看历史命中率和策略表现
 - 账本页：记录手动录入的购彩成本与开奖结果
 - 设置页：配置默认彩种、通知、本地数据清理与 AI API Key
+
+## 项目亮点
+
+- 本地优先：账号、账本和推荐结果不依赖私有后端
+- 多模块算法：热号回避、奖池压力、序列衰减、组合结构、异常检测与融合评分
+- 开箱协作：MIT、CI、Issue 模板、PR 模板、Support 与 Release 配置齐全
+- 公开发布友好：仓库内不包含密钥、个人联系信息和内部工作流文档
 
 ## 技术栈
 
@@ -57,6 +80,14 @@ xcodebuild test \
 如果本机没有 `iPhone 16` 模拟器，请替换为任意可用的 iOS 17+ iPhone 模拟器。
 
 默认共享 Scheme 当前只包含稳定的单元测试。`LottomindUITests` 目标仍保留在项目中，适合在本地 Xcode 会话里按需运行和继续完善。
+
+## 快速链接
+
+- 架构说明： [docs/ARCHITECTURE.md](/Users/vtx/Dev/LettoMind/docs/ARCHITECTURE.md)
+- 开发说明： [docs/DEVELOPMENT.md](/Users/vtx/Dev/LettoMind/docs/DEVELOPMENT.md)
+- 使用边界： [docs/RESPONSIBLE_USE.md](/Users/vtx/Dev/LettoMind/docs/RESPONSIBLE_USE.md)
+- 获取帮助： [SUPPORT.md](/Users/vtx/Dev/LettoMind/SUPPORT.md)
+- 变更记录： [CHANGELOG.md](/Users/vtx/Dev/LettoMind/CHANGELOG.md)
 
 ## 项目结构
 
