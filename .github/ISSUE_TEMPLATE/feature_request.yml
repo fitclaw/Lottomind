@@ -1,5 +1,5 @@
-name: Feature request
-description: Suggest an improvement for LottoMind
+name: Feature request / 功能建议
+description: Suggest an improvement for LottoMind / 提交功能改进建议
 title: "[Feature] "
 labels:
   - enhancement
@@ -8,27 +8,28 @@ body:
     attributes:
       value: |
         Please keep requests aligned with the project's open-source scope. Do not propose features that encourage illegal use, hidden tracking, or misleading gambling claims.
+        请让需求保持在项目的开源边界内，不要提交鼓励违法使用、隐藏追踪或误导性博彩宣传的功能建议。
   - type: input
     id: problem
     attributes:
-      label: Problem statement
-      placeholder: What problem are you trying to solve?
+      label: Problem statement / 想解决的问题
+      placeholder: What problem are you trying to solve? / 你想解决什么问题？
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution
-      placeholder: Describe the change you want to see.
+      label: Proposed solution / 期望方案
+      placeholder: Describe the change you want to see. / 请描述你想看到的改动。
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
-      placeholder: What alternatives did you evaluate?
+      label: Alternatives considered / 备选方案
+      placeholder: What alternatives did you evaluate? / 你考虑过哪些替代方案？
   - type: textarea
     id: context
     attributes:
-      label: Additional context
-      placeholder: Links, mockups, or related issues
+      label: Additional context / 补充信息
+      placeholder: Links, mockups, or related issues / 相关链接、示意图或 Issue

@@ -1,5 +1,5 @@
-name: Question
-description: Ask about setup, usage, or project scope
+name: Question / 使用问题
+description: Ask about setup, usage, or project scope / 提问安装、使用或项目边界相关问题
 title: "[Question] "
 labels:
   - question
@@ -8,15 +8,16 @@ body:
     attributes:
       value: |
         Ask usage or setup questions here. Please avoid posting API keys, screenshots with personal data, or legal/compliance assumptions without context.
+        这里适合提问安装和使用问题。请不要贴真实 API Key、包含隐私的截图，或缺少上下文的合规判断。
   - type: textarea
     id: question
     attributes:
-      label: Question
-      placeholder: What do you need help with?
+      label: Question / 问题
+      placeholder: What do you need help with? / 你需要哪方面帮助？
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Context
-      placeholder: Xcode version, iOS version, provider, reproduction context, etc.
+      label: Context / 上下文
+      placeholder: Xcode version, iOS version, provider, reproduction context, etc. / Xcode、iOS、服务商、复现场景等

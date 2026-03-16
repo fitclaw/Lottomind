@@ -1,5 +1,5 @@
-name: Bug report
-description: Report a reproducible defect in LottoMind
+name: Bug report / 缺陷反馈
+description: Report a reproducible defect in LottoMind / 提交一个可复现问题
 title: "[Bug] "
 labels:
   - bug
@@ -8,19 +8,20 @@ body:
     attributes:
       value: |
         Thanks for filing a bug report. Please do not include API keys, personal data, or screenshots containing private information.
+        感谢提交问题。请不要包含真实 API Key、个人信息或带隐私内容的截图。
   - type: input
     id: summary
     attributes:
-      label: Summary
-      description: What went wrong?
-      placeholder: Short description of the problem
+      label: Summary / 问题概述
+      description: What went wrong? / 出现了什么问题？
+      placeholder: Short description of the problem / 简要描述问题
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: Provide a minimal path to reproduce the issue.
+      label: Steps to reproduce / 复现步骤
+      description: Provide a minimal path to reproduce the issue. / 请提供最小可复现路径。
       placeholder: |
         1. Open...
         2. Tap...
@@ -30,25 +31,25 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
-      placeholder: What did you expect to happen?
+      label: Expected behavior / 预期行为
+      placeholder: What did you expect to happen? / 你原本期望看到什么？
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: Actual behavior
-      placeholder: What actually happened?
+      label: Actual behavior / 实际行为
+      placeholder: What actually happened? / 实际发生了什么？
     validations:
       required: true
   - type: input
     id: environment
     attributes:
-      label: Environment
-      description: Xcode version, iOS version, device/simulator
+      label: Environment / 环境信息
+      description: Xcode version, iOS version, device/simulator / Xcode、iOS、真机或模拟器信息
       placeholder: Xcode 16.2, iOS 18.2 Simulator
   - type: textarea
     id: logs
     attributes:
-      label: Logs or screenshots
-      description: Redact secrets and personal data before uploading.
+      label: Logs or screenshots / 日志或截图
+      description: Redact secrets and personal data before uploading. / 上传前请脱敏。

@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="./README.md"><strong>简体中文</strong></a> · <a href="./README.en.md"><strong>English</strong></a>
+</p>
+
+<p align="center">
   <img src="docs/assets/github-banner.svg" alt="LottoMind banner" width="100%" />
 </p>
 
@@ -18,12 +22,13 @@
 
 `LottoMind` 是一个面向 iOS 17+ 的彩票历史数据分析实验项目，提供开奖抓取、统计分析、历史回测、冷热号探索和本地购彩账本能力。
 
-这个仓库现在已经整理为可公开发布的开源项目：
+## 仓库定位
 
 - 使用 `MIT` 许可证
-- 不包含仓库级 API Key、密码或个人联系信息
-- 默认仅在本地保存用户数据与 API Key
+- 默认不包含仓库级 API Key、密码或个人联系信息
+- API Key 与业务数据默认仅保存在本机
 - 不包含代购彩票能力，也不隶属于任何官方彩票发行机构
+- 中文友好，同时为英文协作者提供对应入口
 
 ## 功能概览
 
@@ -56,11 +61,11 @@
 - 当你主动执行联网同步时，请求会直接发送到你选择的 AI 服务商接口。
 - 开奖数据抓取依赖外部 AI 服务和公开网络搜索能力，结果可能存在延迟或误差。
 
-更多说明见 [docs/RESPONSIBLE_USE.md](/Users/vtx/Dev/LettoMind/docs/RESPONSIBLE_USE.md)。
+更多说明见 [使用边界 / Responsible Use](./docs/RESPONSIBLE_USE.md)。
 
 ## 快速开始
 
-1. 使用 Xcode 16 或更新版本打开 [Lottomind/Lottomind.xcodeproj](/Users/vtx/Dev/LettoMind/Lottomind/Lottomind.xcodeproj)。
+1. 使用 Xcode 16 或更新版本打开 `Lottomind/Lottomind.xcodeproj`。
 2. 选择 iOS 17+ 模拟器，或在真机上为 App Target 配置你自己的 Development Team。
 3. 运行 App。
 4. 如需联网拉取开奖信息，在“设置”页填入你自己的 AI API Key。
@@ -83,11 +88,15 @@ xcodebuild test \
 
 ## 快速链接
 
-- 架构说明： [docs/ARCHITECTURE.md](/Users/vtx/Dev/LettoMind/docs/ARCHITECTURE.md)
-- 开发说明： [docs/DEVELOPMENT.md](/Users/vtx/Dev/LettoMind/docs/DEVELOPMENT.md)
-- 使用边界： [docs/RESPONSIBLE_USE.md](/Users/vtx/Dev/LettoMind/docs/RESPONSIBLE_USE.md)
-- 获取帮助： [SUPPORT.md](/Users/vtx/Dev/LettoMind/SUPPORT.md)
-- 变更记录： [CHANGELOG.md](/Users/vtx/Dev/LettoMind/CHANGELOG.md)
+- English README: [README.en.md](./README.en.md)
+- 架构说明： [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)
+- 开发说明： [docs/DEVELOPMENT.md](./docs/DEVELOPMENT.md)
+- 使用边界： [docs/RESPONSIBLE_USE.md](./docs/RESPONSIBLE_USE.md)
+- 获取帮助： [SUPPORT.md](./SUPPORT.md)
+- 贡献指南： [CONTRIBUTING.md](./CONTRIBUTING.md)
+- 安全策略： [SECURITY.md](./SECURITY.md)
+- 行为准则： [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- 变更记录： [CHANGELOG.md](./CHANGELOG.md)
 
 ## 项目结构
 
@@ -99,14 +108,11 @@ Lottomind/
   docs/                 # 面向开源协作者的文档
 ```
 
-## 协作
+## 协作说明
 
-- 贡献指南： [CONTRIBUTING.md](/Users/vtx/Dev/LettoMind/CONTRIBUTING.md)
-- 安全策略： [SECURITY.md](/Users/vtx/Dev/LettoMind/SECURITY.md)
-- 行为准则： [CODE_OF_CONDUCT.md](/Users/vtx/Dev/LettoMind/CODE_OF_CONDUCT.md)
-- 变更记录： [CHANGELOG.md](/Users/vtx/Dev/LettoMind/CHANGELOG.md)
-- 架构说明： [docs/ARCHITECTURE.md](/Users/vtx/Dev/LettoMind/docs/ARCHITECTURE.md)
-- 开发说明： [docs/DEVELOPMENT.md](/Users/vtx/Dev/LettoMind/docs/DEVELOPMENT.md)
+- Issue 和 PR 可以使用中文或英文
+- 文档允许中英混写，但请优先保证清晰、准确和可维护
+- 如果内容涉及合规、隐私或安全，请优先在对应模板中说明上下文
 
 ## 已知限制
 

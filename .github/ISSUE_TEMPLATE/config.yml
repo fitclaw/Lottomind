@@ -1,1 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
+contact_links:
+  - name: Support / 使用帮助
+    url: https://github.com/fitclaw/Lottomind/blob/main/SUPPORT.md
+    about: Read the support guide for questions, bug reports, and contribution entry points.
+  - name: Responsible Use / 使用边界
+    url: https://github.com/fitclaw/Lottomind/blob/main/docs/RESPONSIBLE_USE.md
+    about: Read the responsible-use notes before requesting features related to compliance-sensitive areas.

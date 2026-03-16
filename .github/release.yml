@@ -3,19 +3,19 @@ changelog:
     labels:
       - skip-changelog
   categories:
-    - title: Features
+    - title: New Features / 新功能
       labels:
         - enhancement
         - feature
-    - title: Fixes
+    - title: Fixes / 修复
       labels:
         - bug
         - fix
-    - title: Documentation
+    - title: Documentation / 文档
       labels:
         - documentation
         - docs
-    - title: Maintenance
+    - title: Maintenance / 维护
       labels:
         - chore
         - ci

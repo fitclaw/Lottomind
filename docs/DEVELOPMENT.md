@@ -8,7 +8,7 @@
 
 ## 本地运行
 
-1. 打开 [Lottomind/Lottomind.xcodeproj](/Users/vtx/Dev/LettoMind/Lottomind/Lottomind.xcodeproj)。
+1. 打开 `Lottomind/Lottomind.xcodeproj`。
 2. 选择 `Lottomind` Scheme。
 3. 如果在真机上运行，给 App Target 配置你自己的 Development Team。
 4. 运行 App。
